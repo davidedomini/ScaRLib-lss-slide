@@ -1,14 +1,23 @@
  
 +++
 
-title = "Guide for writing markdown slides"
-description = "A Hugo theme for creating Reveal.js presentations"
+title = "ScaRLib presentation for LSS course"
+description = "ScaRLib presentation for LSS course"
 outputs = ["Reveal"]
 aliases = [
     "/guide/"
 ]
 
 +++
+
+# ScaRLib
+## A Framework for Cooperative Many Agent Deep Reinforcement Learning in Scala
+
+##### *Davide Domini, Filippo Cavallari*
+
+Laboratory of  Software Systems @ University of Bologna
+
+---
 
 
 # Short guide to Markdown slides
