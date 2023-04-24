@@ -19,6 +19,53 @@ Laboratory of  Software Systems @ University of Bologna
 
 ---
 
+# Introduction
+
+--- 
+
+# Tools
+
+---
+
+# Domain Analysis: Knowledge Crunching
+
+---
+
+# Domain Analysis: Ubiquotous Language
+
+---
+
+# Domain Analysis: Core Domain Chart
+
+---
+
+# Design
+
+---
+
+# DevOps: Repository Management
+
+---
+
+# DevOps: Build Automation
+
+---
+
+# DevOps: Continuous Integration 
+
+--- 
+
+# DevOps: Versioning and Releasing
+
+---
+
+# License
+
+---
+
+# Future Work
+
+---
 
 # Short guide to Markdown slides
 
