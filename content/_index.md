@@ -25,6 +25,8 @@ Laboratory of  Software Systems @ University of Bologna
 
 # Tools
 
+<image src="./imgs/tools.jpeg" >
+
 ---
 
 # Domain Analysis: Knowledge Crunching
