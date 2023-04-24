@@ -1,6 +1,6 @@
-baseURL = "https://danysk.github.io/Template-Hugo-Reveal-Slides"
+baseURL = "https://davidedomini.github.io/ScaRLib-lss-slide/"
 languageCode = "en-us"
-title = "A Hugo theme for creating Reveal.js presentations"
+title = "ScaRLib presentation for LSS course"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 publishDir = "build"
@@ -10,7 +10,7 @@ publishDir = "build"
 # uglyURLs = true
 
 [author]
-name = "Danilo Pianini"
+name = "Davide Domini"
 
 # currently only the unsafe mode for goldmark is supported
 [markup.goldmark.renderer]
@@ -31,26 +31,26 @@ isHTML = true
 [params.reveal_hugo]
 history = true
 theme = "league"
-highlight_theme = "solarized-dark"
+highlight_theme = "github"
 slide_number = true
 transition = "slide"
 transition_speed = "fast"
 custom_theme = "custom-theme.scss"
 custom_theme_compile = true
-width = '1440'
-height = '900'
+width = '1920'
+height = '1080'
 
 [params.reveal_hugo.custom_theme_options]
 targetPath = "css/custom-theme.css"
 enableSourceMap = true
 
 [[params.reveal_hugo.mermaid]]
-# startOnLoad = false
+startOnLoad = false
 # theme = "default"
 # fontFamily = "Inconsolata"
-# useMaxWidth = false
+useMaxWidth = false
 
 # gitGraph options break the image generation
 # [params.reveal_hugo.mermaid.gitGraph]
-# mainBranchName = 'master'
-# rotateCommitLabel = true
+mainBranchName = 'master'
+rotateCommitLabel = true
