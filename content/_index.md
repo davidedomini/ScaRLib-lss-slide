@@ -63,6 +63,20 @@ Laboratory of  Software Systems @ University of Bologna
 
 # License
 
+ScaRLib is distributed under the terms of the GNU General Public License (GPL-3.0).
+
+| Permissions | Limitations | Conditions |
+| ------------ |------------ |------------ |
+✅ Commercial use | ❌ Liability  | ℹ License and copyright notice |
+✅ Modification | ❌ Warranty | ℹ State changes |
+✅ Distribution |  |  ℹ Disclose source |
+✅ Patent use |  |  ℹ Same license  |
+✅ Private use |  |  |
+| | |
+
+A full copy of the GNU General Public License can be found [here](https://www.gnu.org/licenses/).
+
+
 ---
 
 # Future Work
