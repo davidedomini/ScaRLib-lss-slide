@@ -64,6 +64,13 @@ Laboratory of  Software Systems @ University of Bologna
 
 # DevOps: Continuous Integration 
 
+To automate the CI process, `GitHub Actions` were utilized. The workflow has been divided into the following steps:
+1. `Test`: runs (on many operating systems) available tests for the ScaRLib project.
+2. `Release`: if tests were successful, the semantic-release tool is executed, which will automatically create a new release of the software if needed.
+3. `Success`: checks if all previous jobs were successful, it is used for branch protection.">
+
+<image src="./imgs/ci-resume.png" width="75%">
+
 --- 
 
 # DevOps: Versioning and Releasing
