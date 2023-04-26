@@ -75,6 +75,16 @@ To automate the CI process, `GitHub Actions` were utilized. The workflow has bee
 
 # DevOps: Versioning and Releasing
 
+* To distinguish different versions of the software, the guidelines proposed by [Semantic Versioning](https://semver.org/) have been followed.
+
+* The correct version to be associated with the software state is based on the saved commits, which were written following the Conventional Commit approach. For example:
+  * **MAJOR** release: Any commit type and scope terminating with `!` causes a `BREAKING CHANGE`
+  * **MINOR** release: Commit type `feat` (*Features*) with any scope
+  * **PATCH** release: Commit type `fix` (*Bug Fixes*) with any scope
+  * **NO** release: Commit type `ci` (*Build and continuous integration*)
+* ScaRLib is currently released on the [Maven Central](https://central.sonatype.com/?smo=true) platform, making it easy and quick to find dependencies to import ScaRLib into new projects.
+
+
 ---
 
 # License
