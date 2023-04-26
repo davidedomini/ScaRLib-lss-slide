@@ -35,6 +35,8 @@ Laboratory of  Software Systems @ University of Bologna
 
 # Domain Analysis: Ubiquotous Language
 
+<image src="./imgs/UL.png" >
+
 ---
 
 # Domain Analysis: Core Domain Chart
