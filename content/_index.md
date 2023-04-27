@@ -41,6 +41,8 @@ Laboratory of  Software Systems @ University of Bologna
 
 # Domain Analysis: Core Domain Chart
 
+<image src="./imgs/scarlib-domain-analysis.png" width="70%" >
+
 ---
 
 # Design
