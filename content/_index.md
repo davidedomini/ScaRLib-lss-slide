@@ -31,6 +31,17 @@ Laboratory of  Software Systems @ University of Bologna
 
 # Domain Analysis: Knowledge Crunching
 
+* First of all, the `customer's request` was analyzed
+  * We tried to understand in detail which parts of the system were already present
+  * We identified the critical issues in the existing system
+  * We pinpointed the areas where usability was challenging
+  * We determined the functionalities that needed to be developed from scratch
+* A preliminary `impact map` was developed
+* `Interviews` were conducted with domain experts to define the application requirements
+* Then, `activity diagram` were created
+* An initial `ubiquitous language` was created, which was further refined throughout the project
+* Finally, a `core domain chart` was developed
+
 ---
 
 # Domain Analysis: Ubiquotous Language
