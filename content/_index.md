@@ -21,6 +21,11 @@ Laboratory of  Software Systems @ University of Bologna
 
 # Introduction
 
+* The project aims to develop a framework for cooperative multi-agent deep reinforcement learning in Scala
+* Collective systems might be engineered using the Aggregate Computing paradigm (e.g., ScaFi)
+* Develop a system able to solve complex tasks might be challenging 
+* Reinforcement Learning techniques enables agents to learn directly from experience
+
 --- 
 
 # Tools
