@@ -79,15 +79,15 @@ ScaRLib is composed of three main modules:
 
 # DevOps: Repository Management
 
-* {{< frag c="To track the development of our project we created a GitHub organization called `ScaRLib-group`." >}}
-* {{< frag c="The main repository that contains the code is called `ScaRLib`." >}}
-* {{< frag c="To manage the repository GitFlow was used" >}}
-  * {{< frag c="The branch `Main` contains project releases" >}}
-  * {{< frag c="The branch `Develop` was used for ongoing development" >}}
-  * {{< frag c="For each feature a branch `feature/feature-name` was used" >}}
-* {{< frag c="Commits were written following the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) approach." >}}
-* {{< frag c="The organization contains also some secondary repositories that are useful for speeding up the use of the tool" >}}
-
+* To track the development of our project we created a GitHub organization called `ScaRLib-group`
+* The main repository that contains the code is called `ScaRLib`
+* To manage the repository GitFlow was used" 
+  * The branch `Main` contains project releases
+  * The branch `Develop` was used for ongoing development
+  * For each feature a branch `feature/feature-name` was used
+* Commits were written following the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) approach
+* The organization contains also some secondary repositories that are useful for speeding up the use of the tool
+f
 ---
 
 # DevOps: Build Automation
