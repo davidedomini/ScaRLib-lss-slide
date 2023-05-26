@@ -68,6 +68,13 @@ Laboratory of  Software Systems @ University of Bologna
 
 # Design
 
+ScaRLib is composed of three main modules:
+* `scarlib-core`: contains the core functionalities of the framework
+* `dsl-core`: contains the DSL for defining experiments
+* `alchemist-scafi`: contains the integration with the Alchemist simulator and ScaFi
+
+<image src="./imgs/modules.png" >
+
 ---
 
 # DevOps: Repository Management
