@@ -26,6 +26,10 @@ Laboratory of  Software Systems @ University of Bologna
 * Develop a system able to solve complex tasks might be challenging 
 * Reinforcement Learning techniques enables agents to learn directly from experience
 * Deep Learning allows the approximation of the policy with a neural network
+* ScaRLib should:
+  * Allow the definition of new experiments in a simple way
+  * Provide preimplemented learning algorithms
+  * Allow the monitoring of learning metrics and learned policies
 
 --- 
 
