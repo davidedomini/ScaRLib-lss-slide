@@ -32,18 +32,16 @@
 <h1 id="introduction">Introduction</h1>
 <ul>
 <li>The project aims to develop a framework for Cooperative Multi-Agent Deep Reinforcement Learning in Scala</li>
-<li>Collective systems might be engineered using the Aggregate Computing paradigm (e.g., ScaFi)</li>
+<li>Collective systems might be engineered using the Aggregate Computing paradigm (e.g., using ScaFi)</li>
 <li>Develop a system able to solve complex tasks might be challenging</li>
 <li>Reinforcement Learning techniques enables agents to learn directly from experience</li>
-<li>Deep Learning allows the approximation of the policy with a neural network</li>
-<li>ScaRLib should:
-<ul>
-<li>Allow the definition of new experiments in a simple way</li>
-<li>Provide preimplemented learning algorithms</li>
-<li>Allow the monitoring of learning metrics and learned policies</li>
+<li>Deep learning enables policy approximation with a neural network to efficiently solve
+tasks with a large number of states</li>
 </ul>
-</li>
-</ul>
+<!-- * ScaRLib should:
+  * Allow the definition of new experiments in a simple way
+  * Provide preimplemented learning algorithms
+  * Allow the monitoring of learning metrics and learned policies -->
 </section><section>
 <h1 id="tools">Tools</h1>
 <img src="./imgs/tools.jpeg">
@@ -60,7 +58,7 @@
 </li>
 <li>A preliminary <code>impact map</code> was developed</li>
 <li><code>Interviews</code> were conducted with domain experts to define the application requirements</li>
-<li>Then, <code>activity diagram</code> were created</li>
+<li>Then, <code>activity diagrams</code> were created</li>
 <li>An initial <code>ubiquitous language</code> was created, which was further refined throughout the project</li>
 <li>Finally, a <code>core domain chart</code> was developed</li>
 </ul>
@@ -84,7 +82,7 @@
 <ul>
 <li>To track the development of our project we created a GitHub organization called <code>ScaRLib-group</code></li>
 <li>The main repository that contains the code is called <code>ScaRLib</code></li>
-<li>To manage the repository GitFlow was used"
+<li>To manage the repository GitFlow was used
 <ul>
 <li>The branch <code>Main</code> contains project releases</li>
 <li>The branch <code>Develop</code> was used for ongoing development</li>
@@ -115,7 +113,7 @@ f</li>
 <ol>
 <li><code>Test</code>: runs (on many operating systems) available tests for the ScaRLib project.</li>
 <li><code>Release</code>: if tests were successful, the semantic-release tool is executed, which will automatically create a new release of the software if needed.</li>
-<li><code>Success</code>: checks if all previous jobs were successful, it is used for branch protection."</li>
+<li><code>Success</code>: checks if all previous jobs were successful, it is used for branch protection.</li>
 </ol>
 <img src="./imgs/ci-resume.png" width="75%">
 </section><section>
