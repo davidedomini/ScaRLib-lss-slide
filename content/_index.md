@@ -22,14 +22,16 @@ Laboratory of  Software Systems @ University of Bologna
 # Introduction
 
 * The project aims to develop a framework for Cooperative Multi-Agent Deep Reinforcement Learning in Scala
-* Collective systems might be engineered using the Aggregate Computing paradigm (e.g., ScaFi)
+* Collective systems might be engineered using the Aggregate Computing paradigm (e.g., using ScaFi)
 * Develop a system able to solve complex tasks might be challenging 
 * Reinforcement Learning techniques enables agents to learn directly from experience
-* Deep Learning allows the approximation of the policy with a neural network
-* ScaRLib should:
+* Deep learning enables policy approximation with a neural network to efficiently solve 
+    tasks with a large number of states
+
+<!-- * ScaRLib should:
   * Allow the definition of new experiments in a simple way
   * Provide preimplemented learning algorithms
-  * Allow the monitoring of learning metrics and learned policies
+  * Allow the monitoring of learning metrics and learned policies -->
 
 --- 
 
@@ -48,7 +50,7 @@ Laboratory of  Software Systems @ University of Bologna
   * We determined the functionalities that needed to be developed from scratch
 * A preliminary `impact map` was developed
 * `Interviews` were conducted with domain experts to define the application requirements
-* Then, `activity diagram` were created
+* Then, `activity diagrams` were created
 * An initial `ubiquitous language` was created, which was further refined throughout the project
 * Finally, a `core domain chart` was developed
 
@@ -81,7 +83,7 @@ ScaRLib is composed of three main modules:
 
 * To track the development of our project we created a GitHub organization called `ScaRLib-group`
 * The main repository that contains the code is called `ScaRLib`
-* To manage the repository GitFlow was used" 
+* To manage the repository GitFlow was used
   * The branch `Main` contains project releases
   * The branch `Develop` was used for ongoing development
   * For each feature a branch `feature/feature-name` was used
@@ -107,7 +109,7 @@ f
 To automate the CI process, `GitHub Actions` were utilized. The workflow has been divided into the following steps:
 1. `Test`: runs (on many operating systems) available tests for the ScaRLib project.
 2. `Release`: if tests were successful, the semantic-release tool is executed, which will automatically create a new release of the software if needed.
-3. `Success`: checks if all previous jobs were successful, it is used for branch protection."
+3. `Success`: checks if all previous jobs were successful, it is used for branch protection.
 
 <image src="./imgs/ci-resume.png" width="75%">
 
