@@ -89,12 +89,11 @@ ScaRLib is composed of three main modules:
   * For each feature a branch `feature/feature-name` was used
 * Commits were written following the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) approach
 * The organization contains also some secondary repositories that are useful for speeding up the use of the tool
-f
 ---
 
 # DevOps: Build Automation
 
-* To manage the project structure `Gradle` was used.
+* To manage the project structure we used `Gradle`.
 * The project was organized into three sub-projects:
   * `scarlib-core`
   * `dsl-core`
