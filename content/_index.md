@@ -146,6 +146,19 @@ A full copy of the GNU General Public License can be found [here](https://www.gn
 
 ---
 
+# Example: Cohesion and Collision (1)
+
+* Objective: develop a group of drones that have the ability to move together while avoiding collisions with each other
+* Experiment conducted in a 2D environment with unlimited space
+* Each drone's neighborhood is limited to the five closest neighbors 
+* Drones capable of moving in eight different directions in a square grid, including horizontal, vertical, and diagonal movements
+* The environment state is determined by the relative distance between the drones and their closest neighbors
+ ```scala
+ val state = foldhoodPlus(Seq.empty)(_ ++ _)(Set(nbrVector))
+ ```
+
+---
+
 # Future Work
 
 
