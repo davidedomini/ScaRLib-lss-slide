@@ -180,6 +180,16 @@ tasks with a large number of states</li>
 </table>
 <p>A full copy of the GNU General Public License can be found <a href="https://www.gnu.org/licenses/">here</a>.</p>
 </section><section>
+<h1 id="example-cohesion-and-collision-1">Example: Cohesion and Collision (1)</h1>
+<ul>
+<li>Objective: develop a group of drones that have the ability to move together while avoiding collisions with each other</li>
+<li>Experiment conducted in a 2D environment with unlimited space</li>
+<li>Each drone’s neighborhood is limited to the five closest neighbors</li>
+<li>Drones capable of moving in eight different directions in a square grid, including horizontal, vertical, and diagonal movements</li>
+<li>The environment state is determined by the relative distance between the drones and their closest neighbors</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape=""><span style="display:flex;"><span><span style="color:#204a87;font-weight:bold">val</span> <span style="color:#000">state</span> <span style="color:#204a87;font-weight:bold">=</span> <span style="color:#000">foldhoodPlus</span><span style="color:#ce5c00;font-weight:bold">(</span><span style="color:#000">Seq</span><span style="color:#ce5c00;font-weight:bold">.</span><span style="color:#000">empty</span><span style="color:#ce5c00;font-weight:bold">)(</span><span style="color:#204a87;font-weight:bold">_</span> <span style="color:#ce5c00;font-weight:bold">++</span> <span style="color:#204a87;font-weight:bold">_</span><span style="color:#ce5c00;font-weight:bold">)(</span><span style="color:#000">Set</span><span style="color:#ce5c00;font-weight:bold">(</span><span style="color:#000">nbrVector</span><span style="color:#ce5c00;font-weight:bold">))</span>
+</span></span></code></pre></div></section><section>
 <h1 id="future-work">Future Work</h1>
 <p>Possible additional features that can be implemented in the future, in addition to those already present, thanks to the modularity of the system, may include the following:</p>
 <ul>
